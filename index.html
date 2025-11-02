@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UTS Visualisasi Data - Kinerja Sales Tim M S I</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f7f7f7; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; background-color: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .scorecard-container { display: flex; justify-content: space-around; margin-bottom: 40px; padding: 20px; }
+        .scorecard { padding: 15px 30px; border-radius: 8px; text-align: center; width: 45%; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        
+        .profit { background-color: #E6FFE6; color: #1C884C; border: 2px solid #1C884C; } 
+        .sales { background-color: #eee; color: #555; }
+        .value { font-size: 2.2em; font-weight: bold; margin: 5px 0; }
+
+        .code-box { background-color: #f1f1f1; padding: 15px; margin-top: 30px; border-radius: 5px; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+
+        .main-title {
+          margin-bottom: 75px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">📊 Dashboard Penjualan Berdasarkan Kategori Produk</h1>
+        <h2 class="subtitle">TOTAL KINERJA</h2>
+        <div class="scorecard-container">
+            <div class="scorecard profit">
+                <h4>NET PROFIT TOTAL (HIGHLIGHT)</h4>
+                <p class="value">Rp 1.684.435.000</p> 
+            </div>
+            <div class="scorecard sales">
+                <h4>VALUE SALES TOTAL</h4>
+                <p class="value">Rp 3.883.474.899</p> 
+            </div>
+        </div>
+        
+        <h2>Perbandingan Profit dan Sales per Kategori</h2>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="bar_chart.png" alt="Bar Chart Kinerja Kategori" style="max-width: 100%; height: auto;">
+        </div>
+        
+        
+    </div>
+</body>
+</html>
